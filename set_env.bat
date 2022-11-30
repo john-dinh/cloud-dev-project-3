@@ -1,0 +1,9 @@
+setx POSTGRES_USERNAME postgres
+setx POSTGRES_PASSWORD fsoft@12345
+setx POSTGRES_HOST localhost
+setx POSTGRES_DB postgres
+setx AWS_BUCKET arn:aws:s3:::test-nd9990-dev-wc
+setx AWS_REGION us-east-1
+setx AWS_PROFILE default
+setx JWT_SECRET testing
+setx URL http://localhost:8100
