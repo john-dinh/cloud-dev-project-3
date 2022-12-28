@@ -7,12 +7,12 @@ services:
   backend_user:
     build:
       context: ./udagram-api-users
-    image: digitalhypertech/udagram-api-users:v1
+    image: digitalhypertech/udagram-api-users:v2
   backend_feed:
     build:
       context: ./udagram-api-feed
-    image: digitalhypertech/udagram-api-feed:v1
+    image: digitalhypertech/udagram-api-feed:v2
   frontend:
     build:
       context: ./udagram-frontend
-    image: digitalhypertech/udagram-frontend:v1
+    image: digitalhypertech/udagram-frontend:v4

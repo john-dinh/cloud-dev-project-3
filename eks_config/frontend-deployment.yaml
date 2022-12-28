@@ -17,7 +17,7 @@ spec:
         api: external
     spec:
       containers:
-      - image: digitalhypertech/udagram-frontend:v1
+      - image: digitalhypertech/udagram-frontend:v4
         name: frontend
         imagePullPolicy: Always
         ports:

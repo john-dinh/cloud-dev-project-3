@@ -15,15 +15,15 @@ spec:
         service: backend-feed
     spec:
       containers:
-      - image: digitalhypertech/udagram-api-feed:v1
+      - image: digitalhypertech/udagram-api-feed:v2
         name: backend-feed
         imagePullPolicy: Always         
         resources:
           requests:
-            memory: "64Mi"
-            cpu: "250m"
+            memory: "2048Mi"
+            cpu: "500m"
           limits:
-            memory: "1024Mi"
+            memory: "2048Mi"
             cpu: "500m"        
         env:
         - name: URL
