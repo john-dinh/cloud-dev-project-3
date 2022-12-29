@@ -15,4 +15,4 @@ services:
   frontend:
     build:
       context: ./udagram-frontend
-    image: digitalhypertech/udagram-frontend:v4
+    image: digitalhypertech/udagram-frontend:v6
